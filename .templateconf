@@ -1,2 +1,3 @@
 # Template settings
-TEMPLATECONF=${TEMPLATECONF:-meta-poky/conf}
+# TEMPLATECONF=${TEMPLATECONF:-${OEROOT}/../../meta-project-layer/conf}
+TEMPLATECONF=/mnt/meta-ros2-yocto/meta-project-layer/conf
